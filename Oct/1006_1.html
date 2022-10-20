@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Document</title>
+
+  <style>
+    #main{
+      width:700px;
+      height:500px;
+    }
+  </style>
+</head>
+<body>
+<div id="main"></div>
+<script src="https://lib.baomitu.com/echarts/5.1.2/echarts.min.js"></script>
+<script>
+  const main=document.querySelector('#main')
+  const chart=echarts.init(main)
+
+  const option= {
+    title:{
+      text:'大前端',
+      left:'center',
+      subtext:'web前端高级',
+      textStyle:{
+        color:'maroon',
+        fontSize:32,
+      },
+      subtextStyle:{
+        color:'#333',
+        fontSize:18,
+      },
+      // show:false
+    },
+    tooltip:{
+      trigger:'item'
+      // trigger:'axis'
+    },
+    grid:{
+      top:80
+    },
+    xAxis:{
+      name:'前端语言',
+      data:['html','css','js']
+    },
+    yAxis:{
+      name:'人数',
+      splitNumber:10,
+    },
+
+
+    legend:{
+      left:'left',
+    },
+    series:[
+      {
+        name:'学习人数',
+        type:'bar',
+        data:[30,20,40],
+        barCategoryGap :'50%',
+        markPoint:{
+          data:[
+            {type:'max'},
+            {type:'min'},
+            {type:'average'},
+            {
+              // coord:[0,40],
+              value:'30人',
+            }
+          ]
+        }
+      },
+      {
+        name:'就业人数',
+        type:'bar',
+        data:[40,30,50],
+        barCategoryGap :'50%',
+        markLine:{
+          data:[
+            {type:'average'},
+            {type:'min'},
+            {type:'max'},
+            [
+              {coord:[0,0]},
+              {coord:[2,50],value:"自定义标记线"},
+            ]
+          ]
+        }
+      },
+    ],
+    toolbox:{
+      feature:{
+        saveAsImage:{type:'jpg'},
+        dataView:{},
+        restore:{},
+        dataZoom:{},
+        magicType:{
+          type:['line','stack']
+        },
+      }
+    },
+  }
+  chart.setOption(option)
+
+</script>
+</body>
+</html>

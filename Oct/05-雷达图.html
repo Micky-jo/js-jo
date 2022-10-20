@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>雷达</title>
+    <style>
+        #main{
+            margin: 20px;
+            width: 700px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<!--建立dom 容器-->
+<div id="main"></div>
+<!--引入echarts-->
+  <script src="https://lib.baomitu.com/echarts/4.7.0/echarts.min.js"></script>
+  <script>
+    // 基于准备好的dom，初始化echarts实例
+    const myChart = echarts.init(document.getElementById('main'));
+    /*英雄数据
+    *   value [生命，攻击，暴击，防御，速度]
+    * */
+    const data=[
+        {
+            name:'关羽',
+            value:[80,98,80,70,70]
+        },
+        {
+            name:'鲁班',
+            value:[85,70,75,95,80]
+        },
+    ];
+
+    // 指定图表的配置项和数据
+    const option = {
+
+        legend:{},
+        tooltip:{},
+        radar:{
+          indicator:[
+            {name:'生命',min:0,max:100},
+            {name:'攻击',min:0,max:100},
+            {name:'暴击',min:0,max:100},
+            {name:'防御',min:0,max:100},
+            {name:'速度',min:0,max:100},
+          ],
+          shape:'polygon',
+          splitArea:{
+            areaStyle:{
+              color:[
+                'rgba(0,163,236,0)',
+                'rgba(0,163,236,0.1)',
+                'rgba(0,163,236,0.2)',
+                'rgba(0,163,236,0.3)',
+                'rgba(0,163,236,0.4)',
+              ]
+            }
+          }
+        },
+        axisLine:{
+            lineStyle:{
+              color:'#fff000',
+            }
+        },
+        splitLine:{
+            lineStyle: {
+              color:"#fff000",
+            }
+        },
+        series:{
+          type:'radar',
+          data
+        }
+
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+  </script>
+</body>
+</html>
