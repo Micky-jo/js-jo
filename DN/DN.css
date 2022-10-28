@@ -1,0 +1,1345 @@
+*{
+  padding: 0;
+  margin: 0;
+  /*line-height: 40px;*/
+}
+div .title{
+  /*margin-left:10%;*/
+  /*margin-right:10%;*/
+  font-size: 100px;
+  font-weight: bold;
+  padding-top: 150px;
+  color:white;
+  text-align: center;
+  z-index: 2;
+  /*line-height: 400px;*/
+  /*position: absolute;*/
+  background-image:url(./img/1235.jpg);
+  height: 840px;
+  background-size:100%;
+
+  background-repeat:no-repeat;
+}
+.box{
+  width:100%;
+  background: rgb(0,127,251);
+}
+div .p{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+div .p span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.title0{
+  margin-left:20%;
+  margin-right:20%;
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+.box .c1{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+div .title2{
+  margin-left:20%;
+  margin-right:20%;
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+div .title3{
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+
+
+div .c1 p{
+  text-align: center;
+}
+.box .c1{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+div .c1 .text1{
+  /*background: black;*/
+  width: 40%;
+  float:left;
+  margin-left: 100px;
+  margin-top: 80px;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  text-align: justify;
+  /*margin:auto;*/
+}
+div .c1 #chart1{
+  width: 60%;
+  float:left;
+  display: block;
+}
+div .c1 .text1 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*第二段*/
+div .c2 p{
+  text-align: center;
+}
+.box .c2{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+div .c2 .text2{
+  /*background: black;*/
+  width: 40%;
+  float:left;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  margin-top: 60px;
+  /*text-align: justify;*/
+}
+div .c2 #chart2{
+  /*background: white;*/
+  width: 60%;
+  float:left;
+  display: block;
+}
+div .c2 .text2 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*第三段*/
+div .c3 p{
+  text-align: center;
+}
+.box .c3{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+}
+div .c3 .text3{
+  /*background: black;*/
+  width: 40%;
+  float:left;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  margin-top:45px;
+}
+div .c3 #chart3{
+  /*background: white;*/
+  width: 60%;
+  float:left;
+  display: block;
+}
+div .c3 .text3 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第四段*/
+div .c4 p{
+  text-align: center;
+}
+.box .c4{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+div .c4 .text4{
+  /*background: black;*/
+  width: 50%;
+  float:left;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  margin-top:60px;
+  margin-left: 20px;
+}
+div .c4 #chart4{
+  /*background: white;*/
+  width: 50%;
+  float:left;
+  display: block;
+}
+div .c4 .text4 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.subtext1{
+  /*width: 100%;*/
+  text-align: left;
+  font-size: 30px;
+  color:white;
+  margin:55px 20% 0 20%;
+}
+.subtext1 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+/*第五段*/
+div .c5 p{
+  text-align: center;
+}
+.box .c5{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+div .c5 .text5{
+  /*background: black;*/
+  width: 35%;
+  float:left;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  margin-top:35px;
+  margin-left: 20px;
+}
+div .c5 #chart5{
+  /*background: white;*/
+  width: 65%;
+  float:left;
+  display: block;
+}
+div .c5 .text5 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第五五段*/
+div .c55 p{
+  text-align: center;
+}
+.box .c55{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+}
+div .c55 .text55{
+  /*background: black;*/
+  width: 40%;
+  float:left;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  margin-top:45px;
+}
+div .c55 #chart55{
+  /*background: white;*/
+  width: 60%;
+  float:left;
+  display: block;
+}
+div .c55 .text55 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第六段*/
+div .c6 p{
+  text-align: center;
+}
+.box .c6{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+div .c6 .text6{
+  /*background: black;*/
+  width: 35%;
+  float:left;
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  margin-top:120px;
+  margin-left: 20px;
+}
+div .c6 #chart6{
+  /*background: white;*/
+  width: 65%;
+  float:left;
+  display: block;
+}
+div .c6 .text6 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*第七段*/
+div .c7 p{
+  text-align: center;
+}
+.box .c7{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+div .c7 .text7{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c7 #chart7{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c7 .text7 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+/*第八段*/
+div .c8 p{
+  text-align: center;
+}
+.box .c8{
+  margin-left:10%;
+  margin-right:10%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 420px;
+  display: flex;
+  /*justify-content: center;*/
+  /*padding-top: 60px;*/
+}
+
+div .c8 #chart8{
+  /*background: white;*/
+  width: 50%;
+  /*float:left;*/
+  display: block;
+  /*margin-right: 2%;*/
+}
+div .c8 #chart11{
+  /*background: white;*/
+  width: 50%;
+  /*margin-left: 1%;*/
+  /*float:left;*/
+  display: block;
+}
+
+
+/*第九段*/
+div .c9 p{
+  text-align: center;
+}
+.box .c9{
+  margin-left:10%;
+  margin-right:10%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 420px;
+  display: flex;
+  /*justify-content: center;*/
+  /*padding-top: 60px;*/
+}
+
+div .c9 #chart9{
+  /*background: white;*/
+  width: 50%;
+  /*float:left;*/
+  display: block;
+  /*margin-right: 1%;*/
+}
+div .c9 #chart12{
+  /*background: white;*/
+  width: 50%;
+  /*margin-left: 2%;*/
+  /*float:left;*/
+  display: block;
+}
+
+
+
+
+/*第十段*/
+div .c10 p{
+  text-align: center;
+}
+.box .c10{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 275px;
+  display: flex;
+  justify-content: center;
+}
+div .c10 .text10{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c10 #chart10{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c10 .text10 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+div .c15 p{
+  text-align: center;
+}
+.box .c15{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+div .c15 .text15{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  display: block;
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c15 #chart15{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c15 .text15 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第十一段*/
+div .c13 p{
+  text-align: center;
+}
+.box .c13{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+div .c13 .text13{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c13 #chart13{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c13 .text13 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第十四段*/
+div .c14 p{
+  text-align: center;
+}
+.box .c14{
+  margin-left:10%;
+  margin-right:10%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+div .c14 .text14{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c14 #chart14{
+  /*background: white;*/
+  width: 356.99px;
+  /*float:left;*/
+  display: block;
+}
+div .c14 #chart16{
+  /*background: white;*/
+  width:356.99px;
+  /*float:left;*/
+  display: block;
+}
+div .c14 #chart17{
+  /*background: white;*/
+  width: 356.99px;
+  /*float:left;*/
+  display: block;
+}
+div .c14 #chart18{
+  /*background: white;*/
+  width: 356.99px;
+  /*float:left;*/
+  display: block;
+}
+div .c14 .text14 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+div .c21 p{
+  text-align: center;
+}
+.box .c21{
+  margin-left:10%;
+  margin-right:10%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+div .c21 .text21{
+  /*background: black;*/
+  width: 356.99px;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+  text-align: center;
+  z-index: 2;
+  font-weight: bold;
+}
+div .c21 .text22{
+  /*background: black;*/
+  width: 356.99px;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+  text-align: center;
+  z-index: 2;
+  font-weight: bold;
+}
+div .c21 .text23{
+  /*background: black;*/
+  width: 356.99px;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+  text-align: center;
+  z-index: 2;
+  font-weight: bold;
+}
+div .c21 .text24{
+  /*background: black;*/
+  width: 356.99px;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+  text-align: center;
+  z-index: 2;
+  font-weight: bold;
+}
+div .c21 #chart21{
+  /*background: white;*/
+  width: 356.99px;
+  /*float:left;*/
+  display: block;
+}
+/*第二十五段*/
+div .c25 p{
+  text-align: center;
+}
+.box .c25{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+div .c25 .text25{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c25 #chart25{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c25 .text25 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*第二十六段*/
+div .c26 p{
+  text-align: center;
+}
+.box .c26{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color: rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+div .c26 .text26{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c26 #chart26{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c26 .text26 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第二十七段*/
+div .c27 p{
+  text-align: center;
+}
+.box .c27{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+div .c27 .text27{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c27 #chart27{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c27 .text27 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第二十八段*/
+div .c28 p{
+  text-align: center;
+}
+.box .c28{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+div .c28 .text28{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c28 #chart28{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c28 .text28 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第二十八段*/
+div .c28 p{
+  text-align: center;
+}
+.box .c28{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+div .c28 .text28{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c28 #chart28{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c28 .text28 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+/*第十四段*/
+div .c29 p{
+  text-align: center;
+}
+.box .c29{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+div .c29 .text29{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c29 #chart29{
+  /*background: white;*/
+  width: 356.99px;
+  /*float:left;*/
+  display: block;
+}
+
+div .c29 .text29 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*第三十一段*/
+div .c31 p{
+  text-align: center;
+}
+.box .c31{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 550px;
+  display: flex;
+  /*justify-content: center;*/
+  /*padding-top: 60px;*/
+}
+
+div .c31 #chart31{
+  /*background: white;*/
+  width: 60%;
+  /*float:left;*/
+  display: block;
+  margin-right: 2%;
+}
+div .c31 #chart32{
+  /*background: white;*/
+  width: 40%;
+  margin-left: 2%;
+  /*float:left;*/
+  display: block;
+}
+/*第三十三段*/
+div .c33 p{
+  text-align: center;
+}
+.box .c33{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+div .c33 .text33{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c33 #chart33{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c33 .text33 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第三十四段*/
+div .c34 p{
+  text-align: center;
+}
+.box .c34{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+div .c34 .text34{
+  /*background: black;*/
+  width: 70%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c34 #chart34{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c34 .text34 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+div .c34 img{
+  width: 70%;
+}
+/*第三十五段*/
+div .c35 p{
+  text-align: center;
+}
+.box .c35{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+div .c35 .text35{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c35 #chart35{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c35 .text35 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*第三十六段*/
+.box .c36{
+  margin-left:10%;
+  margin-right:10%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.c36 audio{
+  width: 50%;
+  height:50px;
+}
+.c36 p{
+  /*line-height: 1;*/
+  text-align: center;
+  /*width: 50%;*/
+  height:50px;
+}
+/*第三十七段*/
+div .c37 p{
+  text-align: center;
+}
+.box .c37{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+div .c37 .text37{
+  /*background: black;*/
+  width: 70%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c37 #chart37{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c37 .text37 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+div .c37 img{
+  width: 70%;
+}
+/*第三十八段*/
+div .c38 p{
+  text-align: center;
+}
+.box .c38{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+}
+div .c38 .text38{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c38 #chart38{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c38 .text38 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*四十段*/
+div .c40 p{
+  text-align: center;
+}
+.box .c40{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+div .c40 .text40{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c40 #chart40{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c40 .text40 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+/*四十一段*/
+div .c41 p{
+  text-align: center;
+}
+.box .c41{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 15px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+div .c41 .text41{
+  /*background: black;*/
+  width: 100%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c41 #chart41{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c41 .text41 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+body,ul{
+  margin:0;
+  padding:0;
+}
+.nav{
+  height: 100px;
+  background: #9013fe;
+  position: sticky;
+  top:0px;
+  z-index: 2;
+  opacity: 0.8;
+}
+.nav ul{
+  width:100%;
+  background: #9013fe;
+  margin:0 auto;
+}
+.nav ul li{
+  float: left;
+  list-style: none;
+  width:25%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 35px;
+  font-weight: bold;
+  /*font-family: "华文仿宋";*/
+}
+.nav ul a{
+  color: white;
+  text-decoration: none;
+}
+.nav li:hover{
+  background-color: purple;
+}
+.back{
+  width:150px;
+  height:150px;
+  background: #9013fe;
+  position: fixed;
+  font-size: 100px;
+  text-align: center;
+  right: 0;
+  bottom: 30px;
+  opacity: 0.8;
+}
+/*第三十九段*/
+div .c39 p{
+  text-align: center;
+}
+.box .c39{
+  margin-left:20%;
+  margin-right:20%;
+  color:white;
+  position: relative;
+  background-color:rgb(0,127,251);
+  overflow: hidden;
+  font-size: 30px;
+  height: 820px;
+  display: flex;
+  justify-content: center;
+}
+div .c39 .text39{
+  /*background: black;*/
+  width: 70%;
+  /*float:left;*/
+  /*line-height: 50px;*/
+  /*height: 500px;*/
+  /*display: block;*/
+  /*text-align: justify;*/
+  /*margin-top:60px;*/
+  /*margin-left: 20px;*/
+}
+div .c39 #chart39{
+  /*background: white;*/
+  width: 100%;
+  /*float:left;*/
+  display: block;
+}
+div .c39 .text39 span{
+  font-weight: bold;
+  font-size: 40px;
+}
+div .c39 img{
+  width: 1130px;
+}
+.box img{
+  width:1902px;
+  height:840px;
+  margin-right: 0px;
+  margin-left:0px;
+}
+
+
+
+
