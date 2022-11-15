@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Data Box Home</title>
+		<script src="js/jquery/2.0.0/jquery.min.js"></script>
+		<link href="css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+		<script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+		<style type="text/css">
+		            body {
+		                background-image: url('123.jpg');
+		            }
+		        </style>
+		<script>
+		</script>
+	
+	</head>
+	<body>
+			<style>
+			.sub{
+				width: 180px;
+				height: 60px;
+				font-size: 20px;
+				color: #ffffff;
+				background-color: darkblue;
+				font-weight: 700;
+				margin-left: 80px;
+			}
+			.sub2{
+				width: 180px;
+				height: 60px;
+				font-size: 20px;
+				color: #ffffff;
+				background-color: lightblue;
+				font-weight: 700;
+				margin-left: 80px;
+			}
+			</style>
+		
+			<table align="center" >
+
+				<tr>
+					<h1 align="center" style="color:white;font-family: times new roman;">Welcome to Data Box</h1>
+				</tr>
+				<tr>
+					<h2 align="center" style="color:white;font-family: times new roman;">Before getting anything you want</h2>
+				</tr>
+				<tr>
+					<h2 align="center" style="color:white;font-family: times new roman;">You need to Login Or Register</h2>
+				</tr>
+				<form action="login2" method="get">
+					<tr>
+						<td align="right"><font color="red" size="20px">*</font><span name="name" style="color:white;font-size: 30px;">Name:</span></td>
+						<!--					<td><input type="text" name="username" id="username" style="width:480px;height:40px"  placeholder="Numbers and English need 2 to 10"  pattern="^(?![u4e00-u9fa5]+$)(?![0-9]+$)(?![a-zA-Z]+$)[u4e00-u9fa50-9A-Za-z]{2,10}$" required/></td>-->
+						<td><input type="text" name="username" id="username" style="width:480px;height:40px"  placeholder="Numbers and English need 2 to 10"  pattern="[\u4e00-\u9fa5_a-zA-Z0-9_]{4,10}" required/></td>
+
+						<!-- <td><font color="white" size="2px">(there must be three characters or even more)</font></td> -->
+					</tr><br/>
+
+					<tr>
+						<td align="right"><font color="red" size="20px">*</font><span name="password"style="color:white;font-size: 30px;">Password:</span></td>
+						<td><input type="password" id="password" name="password" style="width:480px;height:40px" placeholder="Numbers and English need 6 to 16" pattern="^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$" required/></td></tr><br/>
+					<!--					<td align="center" style="width:150px;text-align:center">-->
+<!--					<tr>-->
+<!--						<td colspan="3">-->
+<!--							<button style="	width:150px;font-size:30px;margin-top:60px ;margin-bottom:40px ;margin-left: 40%" type="submit" class="btn btn-info">Enroll</button>-->
+<!--						</td>-->
+<!--					</tr>-->
+					<tr>
+						<td colspan="3" align="center" style="width:150px;text-align:center"><button style="width:150px;font-size:30px;"type="submit" class="btn btn-primary sub" onclick="btnClink1()">Login</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" align="center" style="width:150px;text-align:center;"><button style="width:150px;margin-top:20px;margin-bottom:50px;font-size:30px;"type="submit" class="btn btn-info sub2"><a href="register.html">Register</a></button></td>
+					</tr>
+				</form>
+			</table>
+<!--			<table align="center">-->
+<!--				<tr>-->
+<!--					<td align="center" style="width:150px;text-align:center"><button style="width:150px;font-size:30px;"type="submit" class="btn btn-primary sub" onclick="btnClink1()">Login</button></td>-->
+<!--				</tr>-->
+<!--				<tr>-->
+<!--					<td align="center" style="width:150px;text-align:center;"><button style="width:150px;margin-top:20px;margin-bottom:50px;font-size:30px;"type="submit" class="btn btn-info sub2"><a href="register.html">Register</a></button></td>-->
+<!--			</table>-->
+
+
+			<table align="center" >
+				<tr>
+					<td><font align="center" style="color:white;font-family: times new roman;font-size: 50px;">To me, the past is black and white</font></td>
+				</tr>
+				<tr>
+					<td><h1 align="center" style="color:white;font-family: times new roman;font-size: 50px;"> but the future is always color</h1></td>
+				</tr>
+			</table>
+	</body>
+</html>
