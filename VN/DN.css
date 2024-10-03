@@ -5,7 +5,7 @@
 }
 div .loc {  
     width: 100%; /* 确保左右两侧达到网页两侧 */  
-    height: 100vh; /* 使用视口高度来设置高度，但可能会导致内容溢出 */  
+    height: 50%; /* 使用视口高度来设置高度，但可能会导致内容溢出 */  
     position: relative; /* 确保内部元素（如图片）相对于此div定位 */  
     overflow: hidden; /* 如果图片比div大，则隐藏溢出部分 */  
     background-color: #f0f0f0; /* 可选：设置一个背景色以便更好地看到div的边界 */  
