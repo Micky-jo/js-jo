@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心理咨询 - 健界</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-links a.active {
+            border-bottom: 2px solid white;
+        }
+
+        .login-btn {
+            background-color: #28a745;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .psychological-consulting {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .consultant-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .consultant-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin: 1rem;
+            width: 200px;
+            text-align: center;
+        }
+
+        .consultant-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .consultant-card button {
+            background-color: #007BFF;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">健界</div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="online_consultation.html">在线问诊</a></li>
+                <li><a href="psychological_consulting.html" class="active">心理咨询</a></li>
+                <li><a href="health_news.html">资讯推荐</a></li>
+                <li><a href="health_monitoring.html">健康数据监测</a></li>
+                <li><a href="personalized_plan.html">个性化健康计划</a></li>
+                <li><a href="contact.html" class="login-btn">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="psychological-consulting">
+        <h2>心理咨询</h2>
+        <p>专业心理咨询师提供心理支持</p>
+        <div class="consultant-list">
+            <div class="consultant-card">
+                <img src="doc1.png" alt="Consultant 1">
+                <h3>王咨询师</h3>
+                <p>擅长精神分裂症、双相障碍等重性疾病的诊断及治疗</p>
+				<p>目前任职于精神病医院精神科主任、医务科</p>
+                <button>预约</button>
+            </div>
+            <div class="consultant-card">
+                <img src="doc2.png" alt="Consultant 2">
+                <h3>赵咨询师</h3>
+                <p>失眠、抑郁、焦虑、强迫等精神心理疾病</p>
+                <p>对精神科常见疾病、难治性疾病有深入研究</p>
+                <button>预约</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 健界 - 男性健康管理平台</p>
+    </footer>
+</body>
+</html>
